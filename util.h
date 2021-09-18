@@ -26,5 +26,6 @@ void stringtokenizer(char *data,Tokenizer *t);
 void freetokenizer(Tokenizer *t);
 void addItemList(char *data, List *l);
 int isValidHex(char *data);
+void tohex_dst(char *ptr,int length,char *dst);
 
 #endif

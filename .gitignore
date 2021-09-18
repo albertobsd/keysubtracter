@@ -1,4 +1,6 @@
 keysubtracter
+*.txt
+
 
 # Prerequisites
 *.d
