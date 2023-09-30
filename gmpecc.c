@@ -2,6 +2,10 @@
 #include "gmpecc.h"
 
 
+struct Elliptic_Curve EC;
+struct Point G;
+struct Point DoublingG[256];
+
 void Point_Doubling(struct Point *P, struct Point *R)	{
 	mpz_t slope, temp;
 	mpz_init(temp);
